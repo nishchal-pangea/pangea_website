@@ -1297,7 +1297,7 @@ About Us
   z-index: 0;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
   .about-us {
     padding-top: 0px;
     flex-direction: column; /* Stack content vertically */
@@ -1798,10 +1798,6 @@ responsive
     color: #2a2a2a;
     margin-right: 0;
   }
-  .main-banner .left-content p {
-    color: #afafaf;
-    margin-right: 0;
-  }
   .main-banner .left-content .white-button a {
     background-color: #f3aa20;
     color: #fff !important;
@@ -2152,7 +2148,13 @@ responsive
   background-position: center;
   margin-top: 110px;
 }
-
+@media (max-width: 1250px) and (min-width: 1000px) {
+  .fadecycle > * {
+    width: 100%; /* Adjust width */
+    height: 320px; /* Adjust height */
+    margin-top: 25%; /* Adjust margin-top if needed */
+  }
+}
 /* Set each image as background for each div */
 .fadecycle > *:nth-child(1) { 
   background-image: url("../images/about1.JPG"); 
