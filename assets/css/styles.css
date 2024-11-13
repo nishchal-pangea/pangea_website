@@ -667,6 +667,17 @@ body {
     transition: all 0s ease 0s;
     margin-left: 0px;
   }
+
+  @media (max-width: 768px) {
+    .titlelogo {
+      display: flex;
+      content: url('../images/logo1.png');
+      height: 50px;
+      margin-top: 20px;
+    }
+  }
+
+
   .background-header .nav {
     margin-top: 80px;
   }
