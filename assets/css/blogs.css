@@ -1,0 +1,74 @@
+/* General Layout */
+.row {
+    width: 94%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.col-twelve {
+    width: 100%;
+    float: left;
+}
+
+/* Typography */
+h1 {
+    font-size: 3.1rem;
+    line-height: 1.35;
+    margin-bottom: 2.1rem;
+    font-family: 'Cinzel', serif;
+}
+p {
+    font-family: 'League Spartan', sans-serif;
+    font-size: 1.7rem;
+    line-height: 3rem;
+    color: #111111;
+}
+ul.entry-meta {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+ul.entry-meta li {
+    display: inline;
+    margin-right: 1rem;
+    font-size: 1.3rem;
+}
+
+/* Links */
+a {
+    color: #1237B1;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: all 0.4s ease-in-out;
+}
+a:hover {
+    color: #000000;
+    border-color: rgba(21, 21, 21, 0.2);
+}
+
+/* Images */
+.post-thumb img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Button styles */
+button,
+a.button {
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    letter-spacing: .3rem;
+    padding: 0 3rem;
+    background: #d8d8d8;
+    color: #151515;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+button:hover,
+a.button:hover {
+    background: #bebebe;
+    color: #000000;
+}
