@@ -1,52 +1,74 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
-    <link rel="icon" href="assets/images/favicon.png" type="pangea\assets\images\favicon.png">
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
 
+  <!-- Favicon -->
+  <link rel="icon" href="assets/images/favicon.png" type="image/png">
 
-    <title>Pangea Society</title>
+  <title>Pangea Society</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
+  <!-- FontAwesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" crossorigin="anonymous">
 
+  <!-- Additional CSS Files -->
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="stylesheet" href="assets/css/animated.css">
+  <link rel="stylesheet" href="assets/css/owl.css">
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
 
-    <!-- Additional CSS Files -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/styles.css">
-    <link rel="stylesheet" href="assets/css/animated.css">
-    <link rel="stylesheet" href="assets/css/owl.css">
-    <link rel="stylesheet" href="assets/css/news.css">
-    <style>
-    #iframe {
-        height: 1400px;
-}
-
-@media only screen and (max-width: 767px) {
-#iframe {
-  height: 1700px; 
-}
-}
-
-.header-area {
+  <!-- Inline Styles -->
+  <style>
+    .header-area {
       position: fixed;
       top: 0;
       width: 100%;
       z-index: 1000;
       background-color: white;
     }
-    </style>
-  </head>
+
+    .custom-button {
+      background-color: #4b345e;
+      color: #ffffff;
+      padding: 12px 24px;
+      font-size: 16px;
+      border: none;
+      border-radius: 5px;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+
+    .custom-button:hover {
+      background-color: #3a2751;
+      color: #ffffff;
+    }
+
+    .p {
+      font-family: 'League Spartan', sans-serif;
+      align-content: justify;
+    }
+
+    h3 {
+      font-size: 25px;
+      font-family: 'League Spartan';
+      padding-top: 25px;
+    }
+  </style>
+</head>
 
 <body>
 
@@ -63,101 +85,138 @@
   </div>
   <!-- ***** Preloader End ***** -->
 
-  
-  <!-- ***** Header Area Start ***** -->
-  <header class="header-area header-sticky wow slideInDown" data-wow-duration="0.75s" data-wow-delay="0s">
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <nav class="main-nav">
-            <!-- ***** Logo Start ***** -->
-            <a href="index.html" class="logo titlelogo">
-              <img src="assets/images/logo.jpg" style="height: 75px;" alt="Pangea" class="titlelogo">
-            </a>
-            <!-- ***** Logo End ***** -->
-            <!-- ***** Menu Start ***** -->
-            <ul class="nav">
-              <li class="scroll-to-section"><a href="./index.html">Home</a></li>
-              <li class="scroll-to-section"><a href="./about.html">About Us</a></li>
-              <li class="scroll-to-section"><a href="./fellows.html" class="active">Fellows</a></li>
-              <li class="scroll-to-section"><a href="./news.html">News and Blogs</a></li>
-              <li class="scroll-to-section"><a href="./partnership.html">Partnership & Vision</a></li>
-              <!-- <li class="scroll-to-section"><a href="./contact.html">Contact</a></li> -->
-              <li></li>
-              
-            </ul>        
-            <a class='menu-trigger'>
-                <span>Menu</span>
-            </a>
-            <!-- ***** Menu End ***** -->
-          </nav>
-        </div>
-      </div>
-    </div>
-    <!-- <div class="heading-scroll">
-      <div class="progress-container">
-        <div class="progress-bar" id="myBar"></div>
-      </div>
-    </div> -->
-  </header>
-  <!-- ***** Header Area End ***** -->
-
-<!-- About -->
-<iframe id="iframe" src="fellow_frame.html" class="no-scroll" frameborder="0" scrolling="no" style=" width: 100%;"></iframe>
-
-
- <!-- footer -->
- <footer id="newsletter">
-  <div class="container">
-    <div class="row head1">
-      <div class="col-lg-8 offset-lg-2">
-        <div class="section-heading">
-          <h4>Pangea Society</h4>
-        </div>
-      </div>
-    </div>
-    <div class="row row1">
-      <div class="col-lg-4">
-        <div class="footer-widget">
-          <h4>Contact Us</h4>
-          <p>Pangea Society</p>
-          <p>Gurgaon | Mumbai</p>
-          <p><a>Phone Number: +91 9266877409</a></p>
-          <p><a>Email: hello@pangeasociety.org</a></p>
-        </div>
-      </div>
-      <div class="col-lg-4">
-        <div class="footer-widget">
-          <h4>About Us</h4>
-          <ul >
-            <li ><a href="./index.html">Home</a></li>
-            <li><a href="./about.html">About</a></li>
-            <li><a href="./partnership.html">Partnership</a></li>
-            <li><a href="./news.html">News</a></li>
-            <li><a href="./fellows.html">Fellows</a></li>
-            <li></li>
-          </ul>
-        </div>
-      </div>
-      <div class="col-lg-4">
-        <div class="footer-widget">
-          <h4>About Our Company</h4>
-          <div class="logo">
-            <img src="assets/images/footer.png" alt="">
+  <!-- Scoped Header -->
+  <div class="main-header-wrapper">
+    <header class="header-area header-sticky wow slideInDown" data-wow-duration="0.75s" data-wow-delay="0s">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <nav class="main-nav">
+              <a href="index.html" class="logo titlelogo">
+                <img src="assets/images/logo.jpg" style="height: 75px;" alt="Pangea" class="titlelogo">
+              </a>
+              <ul class="nav">
+                <li class="scroll-to-section"><a href="./index.html">Home</a></li>
+                <li class="scroll-to-section"><a href="./about.html" >About Us</a></li>
+                <li class="scroll-to-section"><a href="./fellows.html" class="active">Fellows</a></li>
+                <li class="scroll-to-section"><a href="./news.html">News and Blogs</a></li>
+                <li class="scroll-to-section"><a href="./partnership.html">Partnership & Vision</a></li>
+              </ul>
+              <a class="menu-trigger"><span>Menu</span></a>
+            </nav>
           </div>
-          <p>We envision a world where research and academia are not isolated in theoretical frameworks but are actively engaged in solving contemporary issues.</p>
         </div>
       </div>
-      <div class="col-lg-12">
-        <div class="copyright-text">
-          <p>Copyright © 2024 Pangea. All Rights Reserved.</p>
-        </div>
+    </header>
+  </div>
+
+  <br><br><br><br>
+
+  <!-- About Section -->
+  <section id="content-wrap" class="site-page">
+    <div class="row">
+      <div class="col-twelve">
+        <section>
+          <div class="content-media">
+            <img src="assets/images/joinus.JPG" alt="Join Us">
+          </div>
+
+          <div class="primary-content">
+            <center>
+              <h1 class="entry-title add-bottom">Calling Visionary Researchers</h1>
+              <p style="color: black; font-family: 'League Spartan', sans-serif; text-align: justify; line-height: 35px;">
+                Are you a PhD, PostDoc, or established Researcher/Professor? Join Pangea Society as a Fellow to drive innovation and advance groundbreaking ideas. Collaborate with visionaries, contribute to transformative projects, and shape the future of research and technology. Become a Pangea Fellow today and make an impact!
+              </p>
+            </center>
+
+            <div class="row block-1-2 block-tab-full" style="color: black; font-family: 'League Spartan', sans-serif; text-align: justify; font-size: 25px;">
+              <div class="bgrid">
+                <h3>Mentorship Rewards</h3>
+                <p>Receive attractive fellowships and mentor the next generation of innovators, guiding and inspiring bright young minds.</p>
+              </div>
+
+              <div class="bgrid">
+                <h3>Collaborative Growth</h3>
+                <p>Work alongside leading researchers, advancing your own vision and projects through meaningful collaborations.</p>
+              </div>
+
+              <div class="bgrid">
+                <h3>Global Impact</h3>
+                <p>Join a worldwide community of thought leaders dedicated to driving positive change and advancing innovation across disciplines.</p>
+              </div>
+
+              <div class="bgrid">
+                <h3>Academic Recognition</h3>
+                <p>Gain recognition within an esteemed community that celebrates research achievements and academic excellence.</p>
+              </div>
+            </div>
+          </div>
+        </section>
       </div>
     </div>
+
+    <div style="text-align: center; padding-top: 50px;">
+      <a href="https://airtable.com/app1e9Kp1UzXAvgMB/pagLTgGmsq44nCwsh/form" class="custom-button" target="_blank">
+        <span style="color: #ffffff;">Join Us Now</span>
+      </a>
+    </div>
+  </section>
+
+  <br><br><br><br>
+
+  <!-- Scoped Footer -->
+  <div class="main-footer-wrapper">
+    <footer id="newsletter">
+      <div class="container">
+        <div class="row head1">
+          <div class="col-lg-8 offset-lg-2">
+            <div class="section-heading">
+              <h4>Pangea Society</h4>
+            </div>
+          </div>
+        </div>
+        <div class="row row1">
+          <div class="col-lg-4">
+            <div class="footer-widget">
+              <h4>Contact Us</h4>
+              <p>Pangea Society</p>
+              <p>Gurgaon | Mumbai</p>
+              <p><a href="#">Phone Number: +91 9266877409</a></p>
+              <p><a href="mailto:hello@pangeasociety.org">Email: hello@pangeasociety.org</a></p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="footer-widget">
+              <h4>About Us</h4>
+              <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./partnership.html">Partnership</a></li>
+                <li><a href="./news.html">News</a></li>
+                <li><a href="./fellows.html">Fellows</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="footer-widget">
+              <h4>About Our Company</h4>
+              <div class="logo">
+                <img src="assets/images/footer.png" alt="">
+              </div>
+              <p>We envision a world where research and academia are not isolated in theoretical frameworks but are actively engaged in solving contemporary issues.</p>
+            </div>
+          </div>
+          <div class="col-lg-12">
+            <div class="copyright-text">
+              <p>Copyright © 2024 Pangea. All Rights Reserved.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
   </div>
-</footer>
+
   <!-- Scripts -->
-    <script src="assets/js/header_footer.js" defer></script>
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/js/owl-carousel.js"></script>
@@ -166,14 +225,6 @@
   <script src="assets/js/popup.js"></script>
   <script src="assets/js/custom.js"></script>
   <script src="assets/js/scrollbar.js"></script>
-
-
-
-
-  <!-- About js -->
-  <!-- <script src="assets/js/jquery-2.1.3.min.js"></script>
-  <script src="assets/js/plugins.js"></script>
-  <script src="assets/js/main.js"></script> -->
-
 </body>
+
 </html>
